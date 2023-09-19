@@ -138,10 +138,6 @@ p::first-letter {
  	color: white;
  	position: relative;
  }
- 
-.selector-for-some-widget {
-  box-sizing: content-box;
-}
 
 h2 {
 	font-size: 6em !important;
@@ -350,7 +346,7 @@ footer {
 
 .contatti {
 	font-family: 'Big Shoulders Text', cursive;
-	font-size:10px;
+	font-size:20px;
 	color: white;
 	margin-top:50px !impotant;
 	margin-bottom: none;
@@ -403,4 +399,4 @@ h6 {
 }
 .doc1 {
 	font-size:5em !important;
-}
+} 
