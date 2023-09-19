@@ -1,0 +1,406 @@
+html {
+	color: black; 
+	font-family: "Georgia", serif;
+}
+body{
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 15px !important;
+	margin-top: none !important;
+	color: white !important;
+	background-color:#333 !important;
+	scroll-behavior: smooth;
+}
+
+.images {
+	height: auto !important;
+	width: auto !important;
+	max-width:70% !important;
+	min-height:10% !important;
+	margin-top: 35px !important;
+	margin-bottom: 20px !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+}
+
+.img1 {
+	max-width: 100%;
+	margin-top: 30px;
+	position: relative;
+}
+.img2 {
+	max-width: 100%;
+	width: 90%;
+	margin-top: 50px;
+	margin-left: 30px;
+	margin-right: none;
+}
+
+.style {
+	max-width:100% !important;
+	height: 100%;
+	margin: none;
+}
+
+button {
+  background-color: #e7e7e7; 
+  color: black !important;
+  border: none !important;
+  text-decoration: none;
+  padding: 10px 25px !important;
+  text-align: center!important;
+  display: inline-block !important;
+  font-size: 10px !important;
+  transition-duration: 0.4s;
+	cursor: pointer;
+	font-family: 'Squada One', cursive;
+	color: #A9A9A9 !important;
+	max-width:20%;
+  	max-height: 20%;
+}
+button .active { 	 
+	color: black !important;
+  	text-decoration: none;
+  	padding: 15px 25px !important;
+  	margin-top: 10px;
+  	max-width:100%;
+  	max-height: 100%;
+}
+@media screen and(min-width:601px){
+	#button{
+		width:200px; height: 50px !important;
+	}
+}
+@media screen and(max-width:60opx){
+	#button{
+		width:300px; height: 75px;
+	}
+}
+
+nav ul {
+	list-style-type: none;
+	padding-left: 0px !important;
+	color: white;
+}
+nav ul li {
+	display: inline-block !important;
+	font-family: 'Squada One', cursive;
+	font-size: 2em !important;
+	padding: 10px !important;
+  	text-transform: uppercase !important;
+  	color: #DCDCDC !important;
+}
+
+a:link {color: #A9A9A9 !important;}
+a:visited {color: gray !important;}
+a:hover {color: gray !important;}
+a:active {color: black !important;}
+
+button:hover{
+	background-color: black !important;
+	color: gray !important;
+}
+h3 {
+	font-size: 6em !important;
+ 	text-align: justify;
+ 	font-family: 'Squada One', cursive;
+ 	margin: 30px 20px 30px 20px;
+ 	margin- bottom: none !important;
+ 	padding-left: none;
+ 	padding-right: 50px;
+ 	padding-top: 20px;
+ 	color: white;
+
+}
+p {
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 20px;
+	color: white;
+	display: center;
+	margin-bottom: none;
+	margin: 10px;
+	padding: 20px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+p::first-letter {
+  font-size: 2em; /* la prima lettera di ogni paragrafo */
+}
+.container {
+	text-align: justify; 
+	position: center;
+ }
+ 
+ h1 {
+ 	font-size: 7em;
+ 	text-align: center;
+ 	font-family: 'Big Shoulders Text', cursive;
+ 	margin: 30px 20px 30px 50px;
+ 	color: white;
+ 	position: relative;
+ }
+ 
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+h2 {
+	font-size: 6em !important;
+ 	text-align: center;
+ 	font-family: 'Squada One', cursive;
+ 	margin: 30px 50px 50px 50px;
+ 	padding-top: 20px;
+ 	padding-bottom: 50px;
+ 	color: white;
+ 	position: relative;
+}
+h4 {
+	font-size: 3em !important;
+ 	text-align: justify;
+ 	font-family: 'Squada One', cursive;
+ 	margin: 20px;
+ 	margin-bottom: 10px;
+ 	padding-left:35px;
+ 	padding-bottom: 5px;
+ 	padding-right: 50px;
+ 	padding-top: 10px;
+ 	color: white;
+}
+.sconosciuti {
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+	display: center !important;
+	margin-bottom: none;
+	padding-left: 100px !important;
+	padding-right: 100px !important;
+	padding-top: 50px !important;
+	padding-bottom: 50px!important;
+}
+
+.amanti {
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+	display: center !important;
+	margin-bottom: none;
+	padding-left: 30px !important;
+	padding-right: 30px !important;
+	padding-top: 100px !important;
+	padding-bottom: 10px !important;
+}
+.col {
+	font-family: 'Squada One', cursive;
+	font-size: 2em;
+	text-align:center;
+	display: inline-block, center !important;
+	padding: 10px;
+  	text-transform: uppercase;
+  	color: #DCDCDC !important;
+  	position: relative;
+}
+
+footer {
+	background-color: black !important;
+	max-width:100%;
+	margin-top: 10px;
+	padding:10px;
+	padding-bottom:none;
+	font-size: 10px;
+	text-align: center;
+	box-sizing: border-box; /* Include padding e bordi nella larghezza totale */;
+}
+
+.card-body {
+	border: 1em !important;
+	text-align:center !important;
+	padding: 5px;
+  	text-transform: uppercase;
+  	color: black;
+  	position: center;
+}
+.card-text {
+	border: 1em !important;
+	text-align:center !important;
+	font-size:1em;
+	display: inline-block;
+	padding: 2px;
+  	text-transform: uppercase;
+  	color: black;
+  	position: center:;
+  }
+.card-title {
+	border: 1em;
+	text-align:center !important;
+	padding: 5px;
+  	text-transform: uppercase;
+  	color: black !important;
+  	position: relative;
+  	font-family: 'Squada One', cursive;
+  	font-size: 20px;
+}
+.card {
+	max-width:100%;
+	width: 10% !important;
+	height: 10% !important;
+	position: relative;
+	border: none;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom:5px; 
+}
+
+.card-img-top {
+	height: 100% !important;
+	width:100% !important;
+}
+
+.btn {
+	background-color: gray !important;
+	color: black !important;
+	transition-duration: 0.4s;
+	cursor: pointer !important;
+	font-family: 'Squada One', cursive !important;
+}
+
+.section1 {
+	background-image: url(img/fotoconcerto.JPG) !important; /* Percorso dell'immagine di sfondo per la sezione 1 */
+  background-size: cover;
+  height: 100vh; /*Altezza della sezione*/
+}
+
+.bio {
+	font-family: 'Big Shoulders Text', cursive;
+	font-size: 6px;
+	color: white;
+	text-align: justify;
+	display: center !important;
+	margin-bottom: none;
+	padding-left: 20% !important;
+	padding-right: 20% !important;
+	padding-top: none !important;
+	padding-bottom: 5% !important;
+}
+.concert{
+	max-width: 100%;
+	width:100%;
+	margin-top: none;
+	position: center ;
+}
+.carousel-container {
+  display: flex;
+  overflow: hidden;
+  width: 50%; /* Assicura che il carosello sia largo quanto il contenitore */
+  margin: 0 auto;
+}
+
+.carousel-slide {
+  min-width: 100%;
+  transition: transform 1s ease-in-out;
+}
+
+.carousel-slide img {
+  width: 100%;
+}
+
+@keyframes scroll {
+  0%, 100% {
+    transform: translateX(0%);
+  }
+  33.33% {
+    transform: translateX(-100%);
+  }
+  66.66% {
+    transform: translateX(-200%);
+  }
+}
+
+.carousel-container:hover .carousel-slide {
+  animation: scroll 15s infinite; /* Modifica la durata e la velocità dello scorrimento qui */
+}
+.container1 {
+  margin-bottom: 50px;
+  padding-bottom:15%;
+  padding-top: 15%;
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+.video-container {
+  display: inline-block;
+}
+
+.gif {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	max-width:100%;
+	height: auto;
+	text-align: center;
+}
+
+.date{
+	max-width:100%;
+	width: 60%;
+	position: center;
+	text-align: center;
+	margin-bottom:10px;
+}
+
+.contatti {
+	font-family: 'Big Shoulders Text', cursive;
+	font-size:10px;
+	color: white;
+	margin-top:50px !impotant;
+	margin-bottom: none;
+	padding-left: 50px;
+	padding-right:50px;
+	padding-top: 50px !important;
+	padding-bottom: none !important;
+	text-align:center;
+}
+
+i{
+	text-align: center;
+}
+.contatti{
+	margin-top: 50px;
+}
+ul {
+	text-align: cneter;
+
+}
+video { 
+	max-width: 100%;
+	max-height:100%;
+	width:100% !important;
+	margin-top: none;
+	margin-bottom: none;
+	padding: none !important;
+	border:none
+}
+
+h6 {
+	font-size: 5em !important;
+ 	text-align: center;
+ 	font-family: 'Squada One', cursive;
+ 	margin-bottom: none;
+ 	margin-top: 30px;
+ 	padding-top: 20px;
+ 	padding-bottom: 10px;
+ 	color: white;
+ 	position: relative;
+
+}
+.documentazione {
+	max-width:100%;
+	width:30%;
+	height:30%;
+}
+.doc {
+	font-size:3em !important;
+}
+.doc1 {
+	font-size:5em !important;
+}
