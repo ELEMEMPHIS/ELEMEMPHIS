@@ -66,11 +66,17 @@ button .active {
   	max-width:100%;
   	max-height: 100%;
 }
-@media screen and(min-width:601px){
-	#button{
-		width:200px; height: 50px !important;
-	}
-}
+/* Large */
+.navigation {
+  display: flex;
+  flex-flow: row wrap;
+  /* This aligns items to the end line on main-axis */
+  justify-content: flex-end;
+/* Medium screens */
+@media all and (max-width: 800px) {
+  .navigation {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;
 @media screen and(max-width:60opx){
 	#button{
 		width:300px; height: 75px;
