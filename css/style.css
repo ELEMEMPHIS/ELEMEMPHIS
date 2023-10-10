@@ -401,3 +401,7 @@ h6 {
 .doc1 {
 	font-size:5em !important;
 } 
+
+.docu { font-family: "Georgia";
+       font-size: 2em;
+      }
